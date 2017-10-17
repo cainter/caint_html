@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>main</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<script src="js/jquery-3.0.0.min.js"></script>
+		<style>
+			._wrap{
+				width:1200px;
+				min-width:1000px;
+				margin:100px auto;
+			}
+			.icon{
+				width:80px; height:80px;
+			}
+			.arrows{
+				padding-top:30px;
+			}
+			._top{
+				height:100px; width:100%; min-width:1000px; 
+			}
+			._bottom{
+				height:100px; width:100%; min-width:1000px;
+				margin-top:100px;
+			}
+			._top li,._bottom li{
+				width:80px; height:80px; 
+				float:left; margin-left:40px;  text-align: center; font-weight:bold;
+				list-style: none;
+			}
+			._top li:hover,._bottom li:hover{
+				cursor:pointer; color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="_wrap">
+			<div class="_top">
+				<ul>
+					<li><img src="img/bill.png" class="icon"><span>要制作的业务单</span></li>
+					<li><img src="img/arrows_right.png" class="arrows"></li>
+					<li><img src="img/register.png" class="icon"><span>产量登记</span></li>
+					<li><img src="img/arrows_right.png" class="arrows"></li>
+					<li><img src="img/bill_complete.png" class="icon"><span>业务单完工</span></li>
+				</ul>
+			</div>
+			<div class="_bottom">
+				<ul>
+					<li><img src="img/bill.png" class="icon"><span>要外协的业务单</span></li>
+					<li><img src="img/arrows_right.png" class="arrows"></li>
+					<li><img src="img/register.png" class="icon"><span>外协开单</span></li>
+					<li><img src="img/arrows_right.png" class="arrows"></li>
+					<li><img src="img/goods_in.png" class="icon"><span>收货</span></li>
+					<li><img src="img/arrows_right.png" class="arrows"></li>
+					<li><img src="img/bill_complete.png" class="icon"><span>业务单外协完工</span></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
